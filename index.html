@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div id="main_div" class="container text-center " style="margin-top:20vh" ;>
+    <div id="main_div" class="container text-center " style="margin-top:10vh" ;>
         <form accept="" class=" container w-50  ">
             <h2 class="my-5">CURRENCY CONVERTOR</h2>
             <div id = "mainbox1" >
@@ -23,7 +23,7 @@
                      <div>
                      <tr>
                        <td>
-                     <select id="convertfrom" onchange="convertCurrency();" style="height: 6vh;width: 50%;">
+                     <select id="convertfrom" onchange="convertCurrency();" style="height: 6vh;width: 50%;border-style:hidden">
                         <option value="EUR" value="">Euro(EUR)</option>
                         <option value="AUD">Australian Dollar(AUD)</option>
                         <option value="BGN">Bulgarian Lev(BGN)</option>
@@ -64,8 +64,8 @@
                   <h5>to</h5>
                   <div id="tocountry">
                        <tr>
-                         <td>
-                       <select id="convertto" onchange="convertCurrency();" style="height: 6vh;width: 50%;">
+                         <td >
+                       <select id="convertto" onchange="convertCurrency();" style="height: 6vh;width: 50%;border-style:hidden">
                          <option value="INR"selected >Indian Rupee(INR)</option>
                           <option value="EUR">Euro(EUR)</option>
                           <option value="AUD">Australian Dollar(AUD)</option>
